@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "order"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Address": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Dishes": {
+      "type": "json"
+    },
+    "Amount": {
+      "type": "biginteger"
+    }
+  }
+}
